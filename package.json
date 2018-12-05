@@ -1,0 +1,28 @@
+{
+  "name": "svelte-wc-test",
+  "version": "1.0.0",
+  "description": "123123",
+  "main": "index.js",
+  "repository": "https://github.com/newbornfrontender/svelte-wc-test.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write **/*.{html,js}",
+    "start": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "postcss": "^7.0.6",
+    "postcss-nested": "^4.1.0",
+    "prettier": "^1.15.2",
+    "rollup": "^0.67.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-svelte": "^4.3.2",
+    "terser": "^3.10.12"
+  },
+  "dependencies": {
+    "svelte": "^2.15.3"
+  }
+}
