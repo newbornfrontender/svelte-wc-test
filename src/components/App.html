@@ -1,0 +1,17 @@
+<h1>Hello {name}!</h1>
+
+<script>
+  export default {
+    tag: 'my-app',
+  };
+</script>
+
+<style type="text/postcss">
+  h1 {
+    color: green;
+
+    @media (min-width: 768px) {
+      color: orange;
+    }
+  }
+</style>
