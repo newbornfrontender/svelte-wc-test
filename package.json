@@ -1,7 +1,7 @@
 {
   "name": "svelte-wc-test",
   "version": "1.0.0",
-  "description": "123123",
+  "description": "Тестовый шаблон для создания веб-компонентов на основе Svelte (не закончен)",
   "main": "index.js",
   "repository": "https://github.com/newbornfrontender/svelte-wc-test.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
